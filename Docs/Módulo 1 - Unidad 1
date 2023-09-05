@@ -1,1 +1,21 @@
+Reflexión inicial
 
+¿Qué desafíos ha enfrentado en el uso de información estructurada en el tiempo?
+
+En mi experiencia personal, usualmente realizamos análisis descriptivo en gráficos de tendencia y dichas gráficas se desarrollan fácilmente, por lo que la parte visual generalmente no presenta inconveniente. Entonces considero que realmente el primer desafío consiste en entender bien la necesidad de quien solicita el pronóstico, así sabremos con certeza qué periodo analizar y qué puntos resaltar. Luego de esto enfrentamos la identificación de todos los aspectos que interfieren en el fenómeno estudiado así como el reconocimiento completo del contexto del mercado ya que al tratarse de datos temporales pueden existir muchos hechos atípicos (evidentes por ejemplo en el caso 1 y 3, en los que la existencia de estacionalidades, interrupciones de procesos por decisiones del personal, acciones de la competencia, entre otros) podrían llevar a conclusiones erróneas, además no se debe dejar de lado el típico "trade-off": tamaño muestra vs. estabilidad del modelo.
+
+Otros factores que pueden interferir, tal cual se evidencia en el caso 2 presentado es la resistencia al cambio, muchos procesos pueden ser automatizados pero en muchas ocasiones las personas se sienten relegadas lo cual gradualmente debe ir cambiando al notar que más allá de reemplzar se trata de generar una optimización del trabajo que permita que las personas tengan herramientas de apoyo y puedan desarrollar su potencial en ideas innovadoras en lugar de realizar tareas repetitivas.
+
+Referencias:
+Hernández, S. (2015). Análisis de Series de Tiempo. Ciudad de México. Tomado de: https://www.cepal.org/sites/default/files/courses/files/01_1_conociendo_una_serie_de_tiempo.pdf
+
+Acción - Propuesta Bookdown
+
+Para el desarrollo del curso se propone trabajar con la base de datos de clientes y ventas de Inducolcarnes S.A.S. (empresa en la cual se está desarrollando el proyecto aplicado) y de la cual por ende, ya se tiene la autorización respectiva para el manejo de la información.
+Esta empresa mantiene un modelo de venta tradicional en el que comercializa y distribuye una amplia gama de productos cárnicos elaborados por ellos mismos a diferentes tipos de personas naturales y jurídicas en la ciudad de Bogotá y sus alrededores. 
+
+Actualmente no tienen un área especializada en el análisis de datos y únicamente cuentan con el software contable llamado "Eurowin" que cuenta con diferentes módulos de producción, facturación e inventario y que ha venido almacenando a través del tiempo información valiosa que no ha sido transformada y en la cual se observa un gran potencial de trabajo para generar diferentes tipos de pronóstico.
+
+Particularmente para este caso se pretende hacer pronósticos de venta para los meses restantes del 2023. Actualmente la persona a cargo toma las ventas del año anterior y les suma un 10% adicional para así decidir la producción del nuevo año, esta es una alternativa que se ha trabajado hasta el momento pero en la que se observa una oportunidad de mejora ya que se puede realizar una predicción más acertada; esto es realmente importante ya que hacia octubre la empresa comienza a prepararse para la temporada decembrina, gracias a la venta de pavos navideños, perniles de cerdo y otras especialidades de la temporada es fundamental conocer cuánto se debe producir para satisfacer la demanda y no tener desabastecimiento o excesos que se traducirían en pérdidas. 
+
+Sumado al punto anterior, la oportunidad de aprovechar los datos y así poder anticipar el comportamiento del consumidor sería de gran ayuda para tomar decisiones estratégicas en cuanto a la programación de personal, la disponibilidad de maquinaria, distribución y almacenamiento. 
